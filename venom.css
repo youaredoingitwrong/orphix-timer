@@ -1,0 +1,31 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.timer {
+	height: 200px;
+	width: 400px;
+
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	
+	text-align: center;
+}
+
+.time {
+	font-size: 10em;
+}
+
+button {
+	font-size: 3em;
+	padding: 15px 32px;
+}
+
+.credits {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 5px;
+}
