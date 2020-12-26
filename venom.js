@@ -1,4 +1,4 @@
-const roundLength = 2
+const roundLength = 90
 var remaining = roundLength
 var running = false
 var fallbackSound = new Audio("fallingback.oga")
