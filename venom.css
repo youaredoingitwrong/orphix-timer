@@ -19,8 +19,13 @@ body {
 }
 
 button {
-	font-size: 3em;
-	padding: 15px 32px;
+	font-size: 2em;
+	padding: 10px 28px;
+}
+
+.smolbutton {
+	font-size: 1em;
+	padding: 5px 12px;
 }
 
 .credits {
