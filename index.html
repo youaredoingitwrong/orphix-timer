@@ -9,17 +9,45 @@
 
 <body>
 	<div class="timer">
-		<div class="toggle" id="toggle"><button type="button" id="button">Start</button></div>
-		<div class="time" id="timer">01:30</div>
+		<div class="toggle" id="toggle">
+			<button type="button" class="widebutton" id="button">Start</button>
+		</div>
+		<div class="time" id="timer">
+			01:30
+		</div>
+		<div>
+			<button class="widebutton" type="button" id="sync">Sync</button>
+		</div>
 		<div class="rotations">
-			<div>Spawn pattern:</div>
-			<div><strong id="patternText">(123) 321 123</strong></div>
+			<h2>Mission Status</h2>
+			<div>
+				<span>Orphix Destroyed: </span>
+				<span id="orphixDestroyed">0</span>
+				<button type="button" class="plusminusbutton" id="minusDestroyed">-</button>
+				<button type="button" class="plusminusbutton" id="plusDestroyed">+</button>
+			</div>
+			<div>
+				<strong id="patternText">Pattern: (123) 321 123</strong>
+			</div>
 			<div><button type="button" class="smolbutton" id="togglePattern">Toggle pattern</button></div>
 			<div>Current / Next</div>
 			<div>
 			<button type="button" id="current">1</button>
 			<button type="button" id="next">2</button>
 			</div>
+		</div>
+		<div class="help">
+			<h1>Help</h3>
+			<p>
+				When the first Orphix spawns, click "Start" and the timer will count down.
+				You will get an audible warning at 15 seconds left and then again each second for the last 5 seconds.
+			</p>
+			<p>
+				If the timer drifts and the Orphix spawns late/early, click "Sync" to set the timer to 1:29.
+			</p>
+			<p>
+				
+			</p>
 		</div>
 	</div>
 
